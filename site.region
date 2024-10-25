@@ -8,10 +8,14 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    <p>Hello, world!</p>
     <div class="site-container">
 
       <header class="site-header">
+        <h1 class='site-title'>
+          <a href='/'>
+          Developer Plateform Beginner Tutorial
+          </a>
+        </h1>
         <!-- site navigation -->
         <squarespace:navigation navigationId="siteNav" template="site-navigation" />
 
